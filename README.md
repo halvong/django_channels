@@ -1,7 +1,9 @@
 Django2 & Channels 2, Apress Book
-10/02/2019, Wed 
+10/22/2019, Tues 
 
-chp2, pg28
+chp2, pg46
+
+Sending Emails
 
 
 #steps
@@ -27,3 +29,7 @@ docker-compose run --rm database psql -U tom -h database
 docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py shell
 docker-compose up -d --force-recreate web  
+docker-compose exec web python manage.py test
+docker-compose exec web python manage.py test main.tests.test_views.TestPage.test_home_page_works
+docker-compose exec web python manage.py test main.tests.test_views.TestPage
+docker-compose exec web python manage.py test -v 
