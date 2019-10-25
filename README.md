@@ -1,7 +1,7 @@
 Django2 & Channels 2, Apress Book
-10/22/2019, Tues 
+10/24/2019, Thurs 
 
-chp2, pg46
+chp2, pg48
 
 Sending Emails
 
