@@ -1,18 +1,15 @@
 Django2 & Channels 2, Apress Book
-10/24/2019, Thurs 
+10/25/2019, Friday 
 
-chp2, pg48
+chp2, pg75
 
-Sending Emails
-
+Managing Data Through Django admin
 
 #steps
 1. docker-compose exec web python manage.py startapp main 
 
 #path
 /home/hal/Documents/softwares/pro-pycharm/workspace/django/django-channels/django_channels
-
-
 
 #notes
 docker-compose up --build
@@ -33,3 +30,4 @@ docker-compose exec web python manage.py test
 docker-compose exec web python manage.py test main.tests.test_views.TestPage.test_home_page_works
 docker-compose exec web python manage.py test main.tests.test_views.TestPage
 docker-compose exec web python manage.py test -v 
+docker-compose exec web python manage.py showmigrations main
